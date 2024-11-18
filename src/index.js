@@ -53,6 +53,7 @@ function App() {
       <Header />
       <Menu />
       <Footer />
+      <Signature />
     </div>
   );
 }
@@ -157,6 +158,10 @@ function Order({ closeHour }) {
       <button className="btn">Order</button>
     </div>
   );
+}
+
+function Signature() {
+  return <span className="footer">Made By Nehal S</span>;
 }
 
 // React V18
